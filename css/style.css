@@ -1,3 +1,4 @@
+/***********FORMULAIRE DE CONTACT************/
 .container {
     padding: 5vh 1vh;
     max-width: 40%;
@@ -16,6 +17,7 @@
     box-shadow: 4px 0px 4px 8px rgba(122, 1, 1, 1);
     margin-bottom: 5rem;
 }
+
 
 .formulaire h2 {
     text-align: center;
@@ -46,3 +48,5 @@ input[type=submit] {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
+
+/***********FIN FORMULAIRE DE CONTACT************/
