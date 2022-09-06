@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +10,213 @@
 }
 
 
+body {
+    font-family: 'Kanit';
+    background-color: rgb(37, 37, 37);
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-family: 'Audiowide';
+}
+
+
+
 
 /********* NAVBAR *******/
 
+.navbar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Audiowide';
+    align-items: center;
+}
+
+.navbar .hidden {
+    display: none;
+}
+
+.navbar .logo {
+    font-size: 2em;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .navbar_links ul {
+    display: flex;
+}
+
+.navbar .navbar_links ul li {
+    margin-right: 3vw;
+}
+
+.navbar .navbar_links li:active a {
+    color: rgb(26, 109, 218);
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .navbar {
+        padding: 0;
+        position: absolute;
+    }
+
+    .navbar .logo {
+        font-size: 1.3em;
+        margin-left: 3vw;
+    }
+
+    .navbar .navbar_links ul li {
+        margin-right: 0;
+    }
+    
+    .navbar_links {
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(20, 20, 20, 0.514);
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        
+    }
+
+    .navbar_links.mobile-menu {
+        margin-left: 0;
+    }
+
+    .navbar_links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.3em;
+
+    }
+
+    .navbar_links ul li {
+        margin: 2vh 0;
+    }
+
+    
+
+
+    /******* BOUTON BURGER ********/
+
+
+    .menu {
+        z-index: 2;
+        display: block;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        margin-left: auto;
+      }
+
+      .line {
+        fill: none;
+        stroke: white;
+        stroke-width: 3;
+        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+          stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .line1 {
+        stroke-dasharray: 60 207;
+        stroke-width: 3;
+      }
+
+      .line2 {
+        stroke-dasharray: 60 60;
+        stroke-width: 3;
+      }
+
+      .line3 {
+        stroke-dasharray: 60 207;
+        stroke-width: 3;
+      }
+
+      .opened .line1 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 3;
+      }
+
+      .opened .line2 {
+        stroke-dasharray: 1 60;
+        stroke-dashoffset: -30;
+        stroke-width: 3;
+      }
+
+      .opened .line3 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 3;
+      }
+
+    /******* FIN BOUTON BURGER ********/
+
+    
+
+}
+
+
+
+/********* FIN NAVBAR *******/
+
+/********* PAGE D'ACCUEIL *********/
+
+.title {
+    margin-top: 30vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-size: 1.3em;
+}
+
+.accroche {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 5vh;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.call-to-action {
+    display: flex;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 15px;
+    width: 300px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Kanit';
+    font-size: 1em;
+    background-color: #65B6E6;
+}
 
 
 
@@ -18,9 +226,9 @@
 
 
 
+/********* FIN PAGE D'ACCUEIL *********/
 
 
-/********* NAVBAR *******/
 
 
 
