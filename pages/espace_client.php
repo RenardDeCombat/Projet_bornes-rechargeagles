@@ -19,7 +19,7 @@ session_start(); ?>
     <div class="background">
             <video autoplay muted loop plays-inline src="../pages/video_recharge_format_paysage-boucle.mp4"></video>
             <nav class="navbar">
-                <a href="accueil.html" class="logo">
+                <a href="accueil.php" class="logo">
                     <img class="image_logo" src="../Logo.png" alt="exemple de texte alternatif"/>
                 </a>
                 <div class="navbar_links">

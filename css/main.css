@@ -368,7 +368,7 @@ input[type=submit] {
   transition: 0.25s;
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
-  width: 55vw;
+  transform: scale(1.05);
 }
 .box input[type = "submit"]{
   border:0;
