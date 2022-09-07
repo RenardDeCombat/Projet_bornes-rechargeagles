@@ -23,12 +23,14 @@ h1 {
     position: relative;
     height: 100vh;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
     background: rgba(61, 61, 61, 0.445);
 }
 
 .background video {
-    position: absolute;
+    position: fixed;
     z-index: -100;
 }
 
@@ -266,6 +268,171 @@ h1 {
 /********* FIN PAGE D'ACCUEIL *********/
 
 
+/******** PAGE PRODUIT *******/
+
+.contenant p {
+    font-weight: 300;
+}
+
+.p1 {
+    max-width: 85%;
+    margin: 20vh auto 0 auto;
+}
+
+.p1 h1 {
+    margin-bottom: 6vh;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.p1 h2 {
+    margin-bottom: 3vh;
+    font-family: 'Audiowide';
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.p1 .call-to-action {
+    display: flex;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 12px;
+    width: 300px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Kanit';
+    font-size: 1em;
+    background-color: #65B6E6;
+    z-index: 2;
+}
+
+.contenant h3 {
+    font-family: 'Audiowide';
+    font-weight: 400;
+}
+
+.p1_mockup {
+    margin-top: 5vh;
+    width: 100vw;
+}
+
+.p1_mockup img {
+    width: 100vw;
+    height: auto;
+}
+
+.p2 {
+    max-width: 85%;
+    margin: 0 auto 0 auto;
+}
+
+.trait {
+    width: 20vw;
+    height: 2px;
+    background: #65B6E6;
+    border: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.p2 p {
+    margin-top: 3vh;
+}
+
+.p2 h3 {
+    margin-top: 3vh;
+    font-size: 1.2em;
+}
+
+.p3 {
+    max-width: 85%;
+    margin: 6vh auto 0 auto;
+}
+
+.trait_centrer {
+    width: 50vw;
+    height: 2px;
+    background: #65B6E6;
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+}
+
+.p3 h2 {
+    margin: 6vh 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Audiowide';
+}
+
+.p3 p {
+    margin: 3vh 0;
+}
+
+.p4 {
+    font-family: 'Kanit';
+    background: #ffffff;
+    width: 90%;
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #141414;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+.p4 h3{
+    font-family: 'Kanit';
+}
+
+.p4 img {
+    width: 20px;
+    height: 20px;
+}
+
+.classes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.checkbox img {
+    margin-right: 10%;
+}
+
+
+
+
+/******** FIN PAGE PRODUIT *******/
+
+
+
+
+
+
+
 
 
 
@@ -344,13 +511,13 @@ input[type=submit] {
 }
 .box h1{
   color: #ffffff;
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
 .box h2 {
     color: #65B6E6;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 300;
 }
 .box input[type = "text"],.box input[type = "password"]{
