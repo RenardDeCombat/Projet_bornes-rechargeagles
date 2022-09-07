@@ -12,7 +12,29 @@
 </head>
 <body>
 
-<div>zbdbzjecbz</div>
+<body>
+
+<div class="body_form">
+
+    <form class="box" action="espace_client.php" methode="post">
+
+<!--    Titre    -->
+      <h1>Connexion</h1>
+<!--    Champs caché nom de formulaire  -->
+      <input type="hidden" name="form" value="connexion">
+<!--    Champs user/mdp   -->
+      <input type="text" name="user_nom" placeholder="Votre Nom d'utilisateur">
+
+      <input type="password" name="user_pass" placeholder="Votre Mot De Passe">
+<!--   Bouton de connexion     -->
+        <input type="submit" name="connect" value="Connexion">
+      
+    </form>
+</div>
+
+
+
+</body>
 
 
 </body>
