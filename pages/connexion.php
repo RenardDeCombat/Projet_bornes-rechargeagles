@@ -42,7 +42,7 @@
         <form class="box" action="espace_client.php" methode="post">
 
     <!--    Titre    -->
-        <h1>Connexion</h1>
+        <h1>Bienvenue sur Station Supervisor</h1>
     <!--    Champs caché nom de formulaire  -->
         <input type="hidden" name="form" value="connexion">
     <!--    Champs user/mdp   -->
