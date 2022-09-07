@@ -39,9 +39,7 @@ session_start(); ?>
                     </svg>
                 </button>
             </nav>
-    </div>
-
-    <?php
+            <?php
 
 if(isset($_POST['user_pass']) && isset($_POST['user_nom']))
 {
@@ -64,6 +62,7 @@ if(isset($_POST['user_pass']) && isset($_POST['user_nom']))
 }
 
     ?>
+    </div>
  
 </body>
     <script src="../js/script.js"></script>
