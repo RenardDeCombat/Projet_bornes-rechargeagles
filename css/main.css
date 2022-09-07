@@ -12,13 +12,24 @@
 
 body {
     font-family: 'Kanit';
-    background-color: rgb(37, 37, 37);
-    background-size: cover;
     color: white;
 }
 
 h1 {
     font-family: 'Audiowide';
+}
+
+.background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(61, 61, 61, 0.445);
+}
+
+.background video {
+    position: absolute;
+    z-index: -100;
 }
 
 
@@ -32,7 +43,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 50px;
+    padding: 0 50px;
     box-sizing: border-box;
     font-family: 'Audiowide';
     align-items: center;
@@ -66,8 +77,27 @@ h1 {
     display: none;
 }
 
+.image_logo {
+    width: 10vw;
+    height: auto;
+}
+
 @media screen and (max-width: 850px) {
     
+
+    .image_logo {
+        width: 30vw;
+        height: auto;
+    }
+
+    .background video {
+        display: none;
+    }
+
+    body {
+        background: rgb(41, 41, 41);
+    }
+
     .navbar {
         padding: 0;
         position: absolute;
@@ -113,6 +143,7 @@ h1 {
     .navbar_links ul li {
         margin: 2vh 0;
     }
+
 
     
 
@@ -216,6 +247,7 @@ h1 {
     font-family: 'Kanit';
     font-size: 1em;
     background-color: #65B6E6;
+    z-index: 2;
 }
 
 .bleue {
@@ -242,6 +274,7 @@ h1 {
     max-width: 40%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50vh;
 
 }
 
