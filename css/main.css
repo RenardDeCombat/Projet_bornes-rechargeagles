@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +18,7 @@
 body {
     font-family: 'Kanit';
     color: white;
+    scroll-behavior: smooth;
 }
 
 h1 {

@@ -45,7 +45,7 @@
                     supervision borne de recharge qui serait le gestionnaire 
                     de charge pour les voitures électriques.
                 </p>
-                <button onclick="window.location.href = 'presentation_prod.php'" class="call-to-action" type="button">Découvrir les abonnements </button>
+                <button onclick="window.location.href = '#p3'" class="call-to-action" type="button">Découvrir les abonnements </button>
             </div>
             <div class="p1_mockup">
                 <img src="../mockup_blanc.png">
@@ -75,7 +75,7 @@
                     solutions et produits.
                 </p>
             </div>
-            <div class="p3">
+            <div class="p3" id="p3">
                 <hr class="trait_centrer">
                 <h2>NOS FORMULES</h2>
                 <p class="para">
