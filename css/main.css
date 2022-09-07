@@ -88,8 +88,8 @@ h1 {
         top: 0;
         left: 0;
         position: absolute;
-        background-color: rgba(20, 20, 20, 0.514);
-        backdrop-filter: blur(10px);
+        background-color: rgba(20, 20, 20, 0.699);
+        backdrop-filter: blur(15px);
         display: flex;
         justify-content: center;
         align-items: center;
