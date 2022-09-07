@@ -39,10 +39,12 @@
 
     <div class="body_form">
 
-        <form class="box" action="espace_client.php" methode="post">
+        <form class="box" action="espace_client.php" method="post">
 
     <!--    Titre    -->
         <h1>Bienvenue sur Station Supervisor</h1>
+    <!--     Sous-titre    -->
+        <h2>Logiciel de supervision de borne électrique<h2>
     <!--    Champs caché nom de formulaire  -->
         <input type="hidden" name="form" value="connexion">
     <!--    Champs user/mdp   -->

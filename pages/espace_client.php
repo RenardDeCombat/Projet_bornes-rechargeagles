@@ -56,16 +56,18 @@ if(isset($_POST['user_pass']) && isset($_POST['user_nom']))
 
     /*debug($data);*/
     if ($data['user_client'] == $user_nom && $data['pass_client'] == $user_pass) {
-        echo "Bienvenue $user_nom";
+        echo "<p class='msg_intro'>Bienvenue $user_nom</p>";
    
     } else {
-        echo "<p> Mauvais identifiants. Retour au <a href='connexion.php'>menu de connexion </a><p>";
+        echo "<p class='msg_intro'> Mauvais identifiants. Retour au <a href='connexion.php'>menu de connexion </a><p>";
     }
 }
 
     ?>
-
+ 
 </body>
+    <script src="../js/script.js"></script>
+</html>
 
 
 

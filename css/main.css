@@ -333,7 +333,7 @@ input[type=submit] {
   z-index: -1;
 }
 .box{
-  width: 90%;
+  width: 95%;
   padding: 10px;
   position: absolute;
   top: 50%;
@@ -344,29 +344,35 @@ input[type=submit] {
 }
 .box h1{
   color: #ffffff;
-  font-size: 1em;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.box h2 {
+    color: #65B6E6;
+    font-size: 0.8em;
+    font-weight: 300;
 }
 .box input[type = "text"],.box input[type = "password"]{
   border:0;
-  background: none;
+  background: white;
   display: block;
   margin: 20px auto;
   text-align: center;
   border: 2px solid #ffffff;
   padding: 14px 10px;
-  width: 200px;
+  width: 50vw;
   outline: none;
-  color: white;
-  border-radius: 24px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
   transition: 0.25s;
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
-  width: 280px;
-  border-color: #f2cd13;
+  width: 55vw;
 }
 .box input[type = "submit"]{
   border:0;
-  background-color: #f2cd13;
+  background-color: #65B6E6;
   display: block;
   margin: 20px auto;
   text-align: center;
@@ -374,12 +380,13 @@ input[type=submit] {
   padding: 14px 40px;
   outline: none;
   color: #ffffff;
-  border-radius: 24px;
+  border-radius: 10px;
   transition: 0.25s;
   cursor: pointer;
+  width: 50vw;
 }
 .box input[type = "submit"]:hover{
-  background: #f1c40f;
+  background: #3e9dd4;
 }
 
 .box ::placeholder {
@@ -387,3 +394,14 @@ input[type=submit] {
 }
 
 /**************** FIN DE CONNEXION ******************/
+
+
+/**************** ESPACE CLIENT ****************/
+
+p .msg_intro {
+    color: white;
+    z-index: 10;
+}
+
+
+/**************** FIN ESPACE CLIENT ****************/

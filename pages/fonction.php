@@ -1,7 +1,7 @@
 <?php
 /*---------------CONNEXION A LA BDD----------------*/
 try {
-		$bdd =new PDO("mysql:host=localhost;dbname=station_supervisor", "root", "");
+		$bdd =new PDO("mysql:host=localhost;dbname=station_supervision", "root", "");
 	}
 	catch(PDOException $e){
 		die('Erreur : SITE INDISPONIBLE ! ! ! ! ' . $e->getMessage());
