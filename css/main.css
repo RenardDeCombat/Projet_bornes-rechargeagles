@@ -95,12 +95,13 @@ h1 {
     }
 
     body {
-        background: rgb(41, 41, 41);
+        background: rgb(31, 31, 31);
     }
 
     .navbar {
         padding: 0;
         position: absolute;
+        z-index: 1;
     }
 
     .navbar .logo {
@@ -329,22 +330,21 @@ input[type=submit] {
 .body_form{
   margin: 0;
   padding: 0;
+  z-index: -1;
 }
 .box{
-  width: 300px;
-  padding: 40px;
+  width: 90%;
+  padding: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: #5fb8f1;
   text-align: center;
   border-radius: 50px;
 }
 .box h1{
-  color: #191919;
-  text-transform: uppercase;
-  font-weight: 500;
+  color: #ffffff;
+  font-size: 1em;
 }
 .box input[type = "text"],.box input[type = "password"]{
   border:0;
@@ -352,7 +352,7 @@ input[type=submit] {
   display: block;
   margin: 20px auto;
   text-align: center;
-  border: 2px solid #191919;
+  border: 2px solid #ffffff;
   padding: 14px 10px;
   width: 200px;
   outline: none;
@@ -373,7 +373,7 @@ input[type=submit] {
   border: 2px solid none;
   padding: 14px 40px;
   outline: none;
-  color: #191919;
+  color: #ffffff;
   border-radius: 24px;
   transition: 0.25s;
   cursor: pointer;
@@ -383,7 +383,7 @@ input[type=submit] {
 }
 
 .box ::placeholder {
-  color : #191919;
+  color : #a1a1a1;
 }
 
 /**************** FIN DE CONNEXION ******************/
