@@ -88,7 +88,7 @@ h1 {
         top: 0;
         left: 0;
         position: absolute;
-        background-color: rgba(20, 20, 20, 0.699);
+        background-color: rgba(22, 22, 22, 0.699);
         backdrop-filter: blur(15px);
         display: flex;
         justify-content: center;
@@ -216,6 +216,10 @@ h1 {
     font-family: 'Kanit';
     font-size: 1em;
     background-color: #65B6E6;
+}
+
+.bleue {
+    color: #65B6E6;
 }
 
 

@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="#" class="logo hidden">Logo</a>
+        <a href="#" class="logo">Logo</a>
         <div class="navbar_links">
             <ul>
                 <li><a href="#">Produit</a></li>
