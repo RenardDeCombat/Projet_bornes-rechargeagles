@@ -17,6 +17,7 @@ html {
 
 body {
     font-family: 'Roboto';
+    font-weight: 400;
     color: white;
     scroll-behavior: smooth;
 }
@@ -254,6 +255,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto';
+    font-weight: 400;
     font-size: 1em;
     background-color: #65B6E6;
     z-index: 2;
@@ -311,6 +313,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto';
+    font-weight: 400;
     font-size: 1em;
     background-color: #65B6E6;
     z-index: 2;
