@@ -2,10 +2,10 @@
 
 require_once 'fonction.php';
 
-if($_SERVER ['REQUEST_METHOD']=='POST'){
-    if(isset($_POST['fakeField']) && $_POST['fakeField'] != '') {
-        echo 'erreur';
-    } else{
+if($_SERVER ['REQUEST_METHOD']=='POST') :
+    if(isset($_POST['fakeField']) && $_POST['fakeField'] != '') : ?>
+        <p> Erreur, message non envoyé </p>;
+    <?php else:
     
         $nom = $_POST['prenom'];
         $prenom = $_POST['nom'];
@@ -22,11 +22,14 @@ if($_SERVER ['REQUEST_METHOD']=='POST'){
         ];
 
         $query = $bdd->prepare("INSERT INTO contact (prenom_contact, nom_contact, mail_contact, entreprise_contact, message_contact ) VALUES (:envoi_prenom, :envoi_nom, :envoi_mail, :envoi_entreprise, :envoi_texte)");
-        $query->execute($data);
-}
+        $query->execute($data); ?>
+        <p>Votre message a bien été envoyé. Retour à <a href="accueil.php">l'accueil.</a> </p>
 
-}
 
-    ?>
+<?php 
+endif;
+endif;
 
-    <p>Votre message a bien été envoyé. Retour à <a href="accueil.php">l'accueil.</a> </p>
+?>
+
+    
