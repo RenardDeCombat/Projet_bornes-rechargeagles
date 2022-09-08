@@ -34,42 +34,28 @@
                 </svg>
             </button>
         </nav>
-        <div class="container">
-            <form method="post" action="send_message.php">
+        <div class="body_form2">
+            <h1>Contactez-nous</h1>
+            <form class="box2" method="post" action="send_message.php">
 
             <div class="honeypot"><input type="text" name="fakeField"> </div>
                     
                 <label for="prenom">Prénom</label>
-                <input type="text" id="prenom" name="prenom" placeholder="Prénom">
-                <div class = "rouge cache" id="fname">
-                    <strong> Veuillez rentrer votre prenom </strong>
-                </div>
+                <input type="text" id="prenom" name="prenom" placeholder="Ex : Thibaut">
             
                 <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom" placeholder="Nom">
-                <div class = "rouge cache" id="lname">
-                    <strong> Veuillez rentrer votre nom </strong>
-                </div>
+                <input type="text" id="nom" name="nom" placeholder="Ex : Bourlier">
             
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Adresse mail">
-                <div class = "rouge cache" id="mail">
-                    <strong> Veuillez rentrer votre adresse email </strong>
-                </div>
+                <input type="text" id="email" name="email" placeholder="Ex : xXxDarkSasukexXx@gmail.com">
             
                 <label for="sujet">Nom de votre entreprise</label>
-                <input type="text" id="nom_entreprise" name="nom_entreprise" placeholder="Nom de l'entreprise">
-                <div class = "rouge cache" id="nomcorp">
-                    <strong> Veuillez selectionner votre nom d'entreprise </strong>
-                </div>
+                <input type="text" id="nom_entreprise" name="nom_entreprise" placeholder="Ex : KarmineCorp">
             
                 <label for="com">Message</label>
-                <textarea id="com" name="com" placeholder="Écrivez votre message ..." style="height:200px"></textarea>
-                <div class = "rouge cache" id="mess">
-                    <strong> Veuillez rentrer un message </strong>
-                </div>
+                <textarea id="com" name="com" placeholder="Ex : Vous êtes très charmant ..." style="height:200px"></textarea>
             
-                <input type="submit" value="envoyer">
+                <input type="submit" value="Envoyer">
             </form>
         </div>
     </div>  
