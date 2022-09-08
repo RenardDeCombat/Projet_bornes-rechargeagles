@@ -35,7 +35,9 @@
             </button>
         </nav>
         <div class="container">
-            <form method="post" action="contact.php">
+            <form method="post" action="send_message.php">
+
+            <div class="honeypot"><input type="text" name="fakeField"> </div>
                     
                 <label for="prenom">Prénom</label>
                 <input type="text" id="prenom" name="prenom" placeholder="Prénom">
