@@ -49,8 +49,11 @@ if(isset($_POST['user_pass']) && isset($_POST['user_nom'])) :
 
     $query=$bdd->prepare("SELECT id_client, user_client, pass_client, mail_client
 			FROM clients");
+    $query2=$bdd->prepare("SELECT * FROM facture");
 			$verif_exec = $query->execute();
+            $verif_exec2 = $query2->execute();
 			$data = $query->fetch();
+            $data = $query->fetch();
 
     /*debug($data);*/
     if ($data['user_client'] == $user_nom && $data['pass_client'] == $user_pass) : ?>
@@ -59,9 +62,11 @@ if(isset($_POST['user_pass']) && isset($_POST['user_nom'])) :
             <ul class="listeInfoUser">
                 <li>Votre nom d'utilisateur :  <?php echo $data['user_client'] ?></li>
                 <li>Votre Email : <?php  echo $data['mail_client'] ?></li>
-                <li>Vos factures
+                <li>Vos factures:
                     <ul>
-                        
+                        <li> </li>
+                        <li> </li>
+                        <li> </li>
                     </ul>
                 </li>
             </ul>
