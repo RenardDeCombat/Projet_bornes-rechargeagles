@@ -14,12 +14,12 @@
     <div class="background">
         <video autoplay muted loop plays-inline src="../pages/video_recharge_format_paysage-boucle.mp4"></video>
         <nav class="navbar">
-            <a href="accueil.html" class="logo">
+            <a href="accueil.php" class="logo">
                 <img class="image_logo" src="../Logo.png" alt="exemple de texte alternatif"/>
             </a>
             <div class="navbar_links">
                 <ul>
-                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="accueil.php">Accueil</a></li>
                     <li><a href="presentation_prod.php">Produit</a></li>
                     <li><a href="nosvaleurs.html">Nos Valeurs</a></li>
                     <li><a href="contact.php">Contact</a></li>
