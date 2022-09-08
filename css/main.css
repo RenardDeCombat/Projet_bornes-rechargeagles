@@ -571,9 +571,26 @@ input[type=submit] {
 
 /**************** ESPACE CLIENT ****************/
 
-p .msg_intro {
+.msg_connecte,.msg_err {
     color: white;
-    z-index: 10;
+    display: inline;
+}
+.msg_err {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+.msg_connecte {
+    position: absolute;
+    top: 20%;
+    margin: 0 25% 0 25%;
+}
+
+.listeInfoUser {
+    position: absolute;
+    top: 40%;
+    margin-left: 10%;
+
 }
 
 

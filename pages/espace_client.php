@@ -41,25 +41,39 @@ session_start(); ?>
             </nav>
             <?php
 
-if(isset($_POST['user_pass']) && isset($_POST['user_nom']))
-{
+if(isset($_POST['user_pass']) && isset($_POST['user_nom'])) :
+
 
     $user_nom = $_POST['user_nom'];
     $user_pass = $_POST['user_pass'];
 
-    $query=$bdd->prepare("SELECT id_client, user_client, pass_client
+    $query=$bdd->prepare("SELECT id_client, user_client, pass_client, mail_client
 			FROM clients");
 			$verif_exec = $query->execute();
 			$data = $query->fetch();
 
     /*debug($data);*/
-    if ($data['user_client'] == $user_nom && $data['pass_client'] == $user_pass) {
-        echo "<p class='msg_intro'>Bienvenue $user_nom</p>";
-   
-    } else {
-        echo "<p class='msg_intro'> Mauvais identifiants. Retour au <a href='connexion.php'>menu de connexion </a><p>";
-    }
-}
+    if ($data['user_client'] == $user_nom && $data['pass_client'] == $user_pass) : ?>
+        <div> 
+            <p class='msg_connecte'>Bienvenue sur votre espace client <?php echo $user_nom; ?> </p>
+            <ul class="listeInfoUser">
+                <li>Votre nom d'utilisateur :  <?php echo $data['user_client'] ?></li>
+                <li>Votre Email : <?php  echo $data['mail_client'] ?></li>
+                <li>Vos factures
+                    <ul>
+                        
+                    </ul>
+                </li>
+            </ul>
+    </div>
+
+   <?php
+    else: ?>
+        <p class='msg_err'> Mauvais identifiants. Retour au <a href='connexion.php'>menu de connexion </a><p>
+    <?php
+    endif;
+endif;
+
 
     ?>
     </div>
