@@ -36,7 +36,7 @@
         </nav>
         <div class="contenant">
             <div class="p1">
-                <h1>Découvrez notre app !</h1>
+                <h1>DÉCOUVREZ NOTRE APP !</h1>
                 <h2>Une application adapté à vos besoins !</h2>
                 <p>
                     Pour accompagner les mutations de la distribution 
