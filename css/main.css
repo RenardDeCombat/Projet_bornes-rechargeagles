@@ -497,6 +497,10 @@ input[type=submit] {
     font-family: 'Roboto';
 }
 
+.honeypot input {
+    display:none;
+}
+
 /***********FIN FORMULAIRE DE CONTACT************/
 
 
