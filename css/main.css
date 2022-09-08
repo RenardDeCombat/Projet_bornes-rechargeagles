@@ -241,6 +241,7 @@ h1 {
     margin-top: 5vh;
     font-size: 1.2em;
     font-weight: 300;
+    color: #65B6E6;
 }
 
 .call-to-action {
@@ -264,10 +265,54 @@ h1 {
     font-weight: 400;
 }
 
-.bleue {
-    color: #65B6E6;
+.container h2 {
+    margin-top: 3vh;
+    font-size: 1.2em;
+    font-family: 'Audiowide';
+    font-weight: 500;
 }
 
+.paraph1 {
+    max-width: 85%;
+    margin: 5vh auto 0 auto;
+}
+
+.paraph1 img {
+    margin-top: 5vh;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
+}
+    
+.paraph1 p {
+    margin-top: 5vh;
+}
+
+.call-to-action2 {
+    display: flex;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 15px;
+    width: 300px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-size: 1em;
+    background-color: #65B6E6;
+    z-index: 2;
+}
+
+.ou {
+    text-align: center;
+    font-family: 'Audiowide';
+    font-weight: 500;
+    font-size: 1.2em;
+}
 
 
 
@@ -625,6 +670,7 @@ h1 {
     border: 2px solid #ffffff;
     padding: 14px 10px;
     width: 70%;
+    max-width: 500px;
     outline: none;
     color: rgb(0, 0, 0);
     border-radius: 10px;
@@ -647,6 +693,7 @@ h1 {
     transition: 0.25s;
     cursor: pointer;
     width: 70%;
+    max-width: 500px;
   }
   .box2 input[type = "submit"]:hover{
     background: #3e9dd4;
@@ -701,6 +748,7 @@ h1 {
   border: 2px solid #ffffff;
   padding: 14px 10px;
   width: 50vw;
+  max-width: 500px;
   outline: none;
   color: rgb(0, 0, 0);
   border-radius: 10px;
@@ -723,6 +771,7 @@ h1 {
   transition: 0.25s;
   cursor: pointer;
   width: 50vw;
+  max-width: 500px;
 }
 .box input[type = "submit"]:hover{
   background: #3e9dd4;
