@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
         <video autoplay muted loop plays-inline src="../pages/video_recharge_format_paysage-boucle.mp4"></video>
         <nav class="navbar">
             <a href="accueil.php" class="logo">
-                <img class="image_logo" src="../Logo.png" alt="exemple de texte alternatif"/>
+                <img class="image_logo" src="../Logo_blanc_2.png" alt="exemple de texte alternatif"/>
             </a>
             <div class="navbar_links">
                 <ul>
@@ -47,13 +47,13 @@
                 <input type="text" id="nom" name="nom" placeholder="Ex : Bourlier">
             
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Ex : xXxDarkSasukexXx@gmail.com">
+                <input type="text" id="email" name="email" placeholder="Ex : bourlier.thibaut@gmail.com">
             
                 <label for="sujet">Nom de votre entreprise</label>
-                <input type="text" id="nom_entreprise" name="nom_entreprise" placeholder="Ex : KarmineCorp">
+                <input type="text" id="nom_entreprise" name="nom_entreprise" placeholder="Ex : TiboCorp">
             
                 <label for="com">Message</label>
-                <textarea id="com" name="com" placeholder="Ex : Vous êtes très charmant ..." style="height:200px"></textarea>
+                <textarea id="com" name="com" placeholder="Ex : Bonjour" style="height:200px"></textarea>
             
                 <input type="submit" value="Envoyer">
             </form>

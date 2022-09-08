@@ -41,7 +41,14 @@ h1 {
     z-index: -100;
 }
 
-
+@media screen and (min-width: 850px) {
+    .tour {
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
 
 
 /********* NAVBAR *******/
@@ -64,6 +71,7 @@ h1 {
 
 .navbar .logo {
     font-size: 2em;
+    padding: 20px;
 }
 
 .navbar a {
@@ -116,6 +124,7 @@ h1 {
     .navbar .logo {
         font-size: 1.3em;
         margin-left: 3vw;
+        padding: 20px;
     }
 
     .navbar .navbar_links ul li {
@@ -226,10 +235,79 @@ h1 {
 
 /********* FIN NAVBAR *******/
 
+
+/********* FOOTER *********/
+
+@media screen and (min-width: 850px) {
+    footer {
+        display: none;
+    }
+}
+
+footer {
+    margin-top: auto;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    left: 0;
+    height: 35vh;
+}
+
+.image_logo_footer {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bas {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.bas li {
+    margin-top: 1vh;
+    font-size: 0.8em;
+}
+
+.gauche {
+    width: 40%;
+    text-align: center;
+}
+
+.droite {
+    width: 40%;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Audiowide';
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.trait_centrer2 {
+    width: 50vw;
+    height: 2px;
+    background: #65B6E6;
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+
+
+
+/******** FIN FOOTER *********/
+
 /********* PAGE D'ACCUEIL *********/
 
 .title {
-    margin-top: 30vh;
+    margin-top: 25vh;
     margin-left: 8vw;
     margin-right: 8vw;
     font-size: 1.3em;
@@ -283,7 +361,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
 }
     
 .paraph1 p {
@@ -314,6 +392,9 @@ h1 {
     font-size: 1.2em;
 }
 
+.paraph1 .bot {
+    margin-bottom: 10vh;
+}
 
 
 
@@ -325,6 +406,14 @@ h1 {
 
 
 /******** PAGE PRODUIT *******/
+
+@media screen and (min-width: 850px) {
+    .contenant {
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .contenant p {
     font-weight: 300;
@@ -374,12 +463,15 @@ h1 {
 
 .p1_mockup {
     margin-top: 5vh;
-    width: 100vw;
 }
 
 .p1_mockup img {
     width: 100vw;
     height: auto;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .p2 {
@@ -479,6 +571,24 @@ h1 {
     margin-right: 10%;
 }
 
+.call-to-action3 {
+    display: flex;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 15px;
+    width: 300px;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-size: 1em;
+    background-color: #65B6E6;
+    z-index: 2;
+    margin-bottom: 5vh;
+}
+
 
 
 
@@ -488,6 +598,19 @@ h1 {
 
 /******* PAGE NOS VALEURS ********/
 
+
+@media screen and (min-width: 850px) {
+    .contenant2 {
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .para2 {
+        border-radius: 20px;
+        height: 1vh;
+    }
+}
 
 .contenant2 {
     font-weight: 300;
@@ -508,10 +631,13 @@ h1 {
 .para2 {
     background-color: #65B6E6;
     width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 28vh;
+    height: 200px;
     max-height: 200px;
     flex-wrap: wrap;
     margin-top: 6vh;

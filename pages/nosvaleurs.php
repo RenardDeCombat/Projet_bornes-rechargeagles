@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Nos valeurs</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
         <video autoplay muted loop plays-inline src="../pages/video_recharge_format_paysage-boucle.mp4"></video>
         <nav class="navbar">
             <a href="accueil.php" class="logo">
-                <img class="image_logo" src="../Logo.png" alt="exemple de texte alternatif"/>
+                <img class="image_logo" src="../Logo_blanc_2.png" alt="exemple de texte alternatif"/>
             </a>
             <div class="navbar_links">
                 <ul>
