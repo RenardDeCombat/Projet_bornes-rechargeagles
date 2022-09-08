@@ -21,7 +21,7 @@
                 <ul>
                     <li><a href="accueil.php">Accueil</a></li>
                     <li><a href="presentation_prod.php">Produit</a></li>
-                    <li><a href="nosvaleurs.html">Nos Valeurs</a></li>
+                    <li><a href="nosvaleurs.php">Nos Valeurs</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="connexion.php">Connexion</a></li>
                 </ul>
@@ -39,11 +39,48 @@
         </div>
         <div class="accroche">
             <p>
-                Le meilleur <span class="bleue">logiciel</span> pour gérer vos bornes de rechargement
+                Le meilleur logiciel pour gérer vos bornes de rechargement
             </p>
         </div>
         <button onclick="window.location.href = 'presentation_prod.php'" class="call-to-action" type="button">Voir plus de détails </button>
-        <div class="
+        <div class="container">
+            <div class="paraph1">
+                <h2>01. Produit</h2>
+                <img src="../image_telephone.jpg">
+                <p>
+                    Station Supervisor met à votre disposition son logiciel de supervision de 
+                    bornes de recharge qui serait le gestionnaire de charge pour les véhicules 
+                    électriques.
+                </p>
+                <button onclick="window.location.href = 'presentation_prod.php'" class="call-to-action2" type="button">Découvrir l'app </button>
+                <p class="ou">OU</p>
+                <button onclick="window.location.href = 'contact.php'" class="call-to-action2" type="button">Se Renseigner </button>
+                
+            </div>
+            <div class="paraph1">
+                <h2>02. Nos valeurs</h2>
+                <p>
+                    Nous existons depuis 4 ans sur le marché, nous travaillons en équipe 
+                    de sept salariés. Dans le but de vous offrir un service complet nous mettons 
+                    à disposition, un logiciel de supervision pour les bornes de recharge.
+                </p>
+                <img src="../image_recharge.jpg">
+                <button onclick="window.location.href = 'nosvaleurs_prod.php'" class="call-to-action2" type="button">En savoir davantage</button>
+                
+            </div>
+            <div class="paraph1">
+                <h2>03. Contact</h2>
+                <p>
+                    Vous avez des questions ?
+                </p>
+                <p>
+                    Notre équipe d'experts est prête à répondre à vos questions, à 
+                    vous donner plus d'informations et à vous aider.
+                </p>
+                <button onclick="window.location.href = 'presentation_prod.php'" class="call-to-action2" type="button">Nous contacter</button>
+                
+            </div>
+        </div>
 
 
 

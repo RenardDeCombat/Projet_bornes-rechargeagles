@@ -26,7 +26,7 @@ session_start(); ?>
                     <ul>
                         <li><a href="accueil.php">Accueil</a></li>
                         <li><a href="presentation_prod.php">Produit</a></li>
-                        <li><a href="nosvaleurs.html">Nos Valeurs</a></li>
+                        <li><a href="nosvaleurs.php">Nos Valeurs</a></li>
                         <li><a href="contact.php">Contact</a></li>
                         <li><a href="connexion.php">Connexion</a></li>
                     </ul>
