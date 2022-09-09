@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION['active']) && $_SESSION['active'] == 1) :
+    header('Location:espace_client.php');
+exit;
+endif;
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
