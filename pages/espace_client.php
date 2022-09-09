@@ -31,9 +31,9 @@ if(isset($_POST['user_pass']) && isset($_POST['user_nom'])) :
 			FROM clients");
     $query2=$bdd->prepare("SELECT * FROM facture");
 			$verif_exec = $query->execute();
-            $verif_exec2 = $query2->execute();
+        /**     $verif_exec2 = $query2->execute(); **/
 			$data = $query->fetch();
-            $data2 = $query2->fetch();
+        /**    $data2 = $query2->fetch();  ***/
 
     /*debug($data);*/
     if ($data['user_client'] == $user_nom && $data['pass_client'] == $user_pass) : ?>
