@@ -933,6 +933,17 @@ h5 {
     margin-left: 10%;
 
 }
+.infos h2 {
+    margin: 15px 0 15px 0;
+}
+.infos img {
+    width: 20px;
+    height: 20px;
+}
 
+.tab_client {
+   border-style: solid;
+   padding: 10px;
+}
 
 /**************** FIN ESPACE CLIENT ****************/
