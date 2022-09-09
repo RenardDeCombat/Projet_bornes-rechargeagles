@@ -31,7 +31,7 @@ session_start();
                     Le meilleur logiciel pour gérer vos bornes de rechargement
                 </p>
             </div>
-            <button onclick="window.location.href = 'presentation_prod.php'" class="call-to-action" type="button">Voir plus de détails </button>
+            <button onclick="window.location.href = 'presentation_prod.php'" class="call-to-action" type="button">Voir le logiciel </button>
             <div class="container">
                 <div class="paraph1">
                     <h2>01. Produit</h2>
