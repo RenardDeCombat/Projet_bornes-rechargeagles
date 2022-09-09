@@ -1,6 +1,6 @@
 <nav class="navbar">
     <a href="accueil.php" class="logo">
-        <img class="image_logo" src="../Logo.png" alt="exemple de texte alternatif"/>
+        <img class="image_logo" src="../Logo_blanc_2" alt="exemple de texte alternatif"/>
     </a>
     <div class="navbar_links">
         <ul>
