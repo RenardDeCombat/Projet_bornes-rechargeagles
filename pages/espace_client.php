@@ -1,7 +1,10 @@
 <?php
 
 require_once 'fonction.php';
-session_start(); ?>
+session_start();
+
+
+ ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -9,14 +12,14 @@ session_start(); ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espace client</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="background">
+    <div class="background">
             <video autoplay muted loop plays-inline src="../pages/video_recharge_format_paysage-boucle.mp4"></video>
 
             
@@ -36,9 +39,6 @@ if(isset($_POST['user_pass']) && isset($_POST['user_nom'])) :
     $query2=$bdd->prepare("SELECT * FROM facture");
 			$verif_exec = $query->execute();
 			$data = $query->fetch();
-        /**     $verif_exec2 = $query2->execute(); **/
-			$data = $query->fetch();
-        /**    $data2 = $query2->fetch();  ***/
 
     /*debug($data);*/
     if ($data['user_client'] == $user_nom && $data['pass_client'] == $user_pass) :
@@ -95,6 +95,7 @@ endif;
 
     ?>
     </div>
+ 
 </body>
     <script src="../js/script.js"></script>
 </html>
